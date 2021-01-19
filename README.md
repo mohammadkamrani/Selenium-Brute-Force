@@ -6,5 +6,6 @@ pip install selenium
 -t TARGET   target's url: https://www.linkedin.com/uas/login
 -u USER     username
 -p PAS      wordlist: for example password.txt
+
 ![](https://github.com/mohammadkamrani/Brute-Force/blob/main/ezgif.com-video-to-gif.gif)
 
