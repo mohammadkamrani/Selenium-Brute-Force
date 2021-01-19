@@ -1,2 +1,3 @@
 # Brute-Force
-Simple script for doing brute-force attack levearage selenium
+A simple script for doing brute-force attack using selenium
+pip install selenium
