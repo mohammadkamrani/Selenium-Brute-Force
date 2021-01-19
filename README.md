@@ -4,4 +4,4 @@ A simple script for doing brute-force attack using selenium
 pip install selenium
 
 #Run
-[![Watch the video](https://github.com/mohammadkamrani/Brute-Force/blob/main/ezgif.com-video-to-gif.gif)]
+(https://github.com/mohammadkamrani/Brute-Force/blob/main/ezgif.com-video-to-gif.gif)]
