@@ -1,6 +1,6 @@
-# Brute-Force
+# Selenium-Brute-Force
 A simple script for doing brute-force attack using selenium
-## Setup
+## Help
 - pip install selenium
 - -h, --help  show this help message and exit
 - -t    target's url: https://www.linkedin.com/uas/login
