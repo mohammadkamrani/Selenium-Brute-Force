@@ -22,7 +22,7 @@ with open(file, "r") as s:
 	for i in s:
 		passwords.append(i)
 		
-#test
+
 def	loginuserpass(passw):
 	m=driver.current_url	
 	username = driver.find_element_by_id("username")		
