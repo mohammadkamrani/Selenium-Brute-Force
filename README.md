@@ -15,7 +15,6 @@ put them in code.
 	print("password: "+passw+"\n")
 	password.send_keys(passw)			
 	driver.find_element_by_class_name('login__form_action_container').click()
-}
 ```
 - -h, --help  show this help message and exit
 - -t    target's url: https://www.linkedin.com/uas/login
