@@ -4,7 +4,7 @@ A simple python script for doing brute-force attack using selenium.
 ## Help
 - The default script is useful for Linkedin, but it works for everything. For other platforms, it needs to extract username id, password id, and login button class using browser inspector.
 
-![](https://github.com/mohammadkamrani/Selenium-Brute-Force/blob/main/2021-01-20_14-43-37.jpg)<br />
+![](https://github.com/mohammadkamrani/Selenium-Brute-Force/blob/main/file/help.jpg)<br />
 
 put them in code.
 ```python
@@ -18,10 +18,16 @@ print("password: "+passw+"\n")
 password.send_keys(passw)			
 driver.find_element_by_class_name('login__form_action_container').click()
 ```
-- -h, --help  show this help message and exit
-- -t    target's url: https://www.linkedin.com/uas/login
-- -u    username
-- -p    wordlist: for example password.txt
-
-![](https://github.com/mohammadkamrani/Brute-Force/blob/main/ezgif.com-video-to-gif.gif)
+- check chromedriver version (87.0) with your chrome, if there is an incompatibility, use appropriate version here <br />
+https://chromedriver.chromium.org/downloads
+## Usage
+To get a list of basic options and switches use:
+```python
+selenium-brute.py -h
+```
+sample:
+```
+selenium-brute.py -t https://target.com -u admin -p pass.txt
+```
+![](https://github.com/mohammadkamrani/Selenium-Brute-Force/blob/main/file/video.gif)
 
