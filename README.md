@@ -1,9 +1,10 @@
 # Selenium-Brute-Force
-A simple script for doing brute-force attack using selenium.
+A simple python script for doing brute-force attack using selenium.
 
 ## Help
 - The default script is useful for Linkedin, but it works for everything. For other platforms, it needs to extract username id, password id, and login button class using browser inspector.
-![](https://github.com/mohammadkamrani/Selenium-Brute-Force/blob/main/2021-01-20_14-43-37.jpg)
+![](https://github.com/mohammadkamrani/Selenium-Brute-Force/blob/main/2021-01-20_14-43-37.jpg)<br />
+<br />
 put them in code.
 ```python
 username = driver.find_element_by_id("username")		
