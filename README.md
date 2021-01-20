@@ -26,7 +26,7 @@ To get a list of basic options and switches use:
 selenium-brute.py -h
 ```
 sample:
-```python
+```
 selenium-brute.py -t https://target.com -u admin -p pass.txt
 ```
 ![](https://github.com/mohammadkamrani/Selenium-Brute-Force/blob/main/file/video.gif)
