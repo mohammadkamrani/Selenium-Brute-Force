@@ -18,10 +18,10 @@ print("password: "+passw+"\n")
 password.send_keys(passw)			
 driver.find_element_by_class_name('login__form_action_container').click()
 ```
-- -h, --help  show this help message and exit
-- -t    target's url: https://www.linkedin.com/uas/login
-- -u    username
-- -p    wordlist: for example password.txt
-
+## Usage
+To get a list of basic options and switches use:
+```python
+selenium-brute.py -h
+```
 ![](https://github.com/mohammadkamrani/Selenium-Brute-Force/blob/main/file/video.gif)
 
