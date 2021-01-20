@@ -18,6 +18,8 @@ print("password: "+passw+"\n")
 password.send_keys(passw)			
 driver.find_element_by_class_name('login__form_action_container').click()
 ```
+- check chromedriver version with your chrome, if there is incompatibility, use appropriate version here 
+https://chromedriver.chromium.org/downloads
 ## Usage
 To get a list of basic options and switches use:
 ```python
